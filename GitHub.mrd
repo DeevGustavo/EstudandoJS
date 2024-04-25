@@ -1,0 +1,43 @@
+git init
+- Iniciar novo Porjeto com git
+
+git add "nome-arquivo / ."
+-add os aquivos estao prontos para serem comitados
+
+git commit -n "mensagem commit"
+- commit os aquivos no historico
+
+git log
+- mostra os ultimos commit, log de alteracoes
+
+git status
+-como esta o estado da nossa ramificacao 
+
+git diff
+- mostra oque foi alterado
+- oque tem de alteracao na ramificacao
+
+git merge
+- mescla ramificacoes 
+
+git branch 
+- mostra a branch atual
+
+git branch -b "nome da branch"
+- cria uma nova branch apartir do historico da branch atual que estamos 
+
+git checkout "nome da branch"
+- muda para essa branch
+
+git remote add "nome" "url"
+- add um novo repositorio remoto
+
+git push "nome" "nome da branch"
+- manda nossa alteracao local para o repositorio remote para cada branch
+
+git pull "nome" "nome da branch"
+- pega as alteracoes do repositorio remoto, e joga para nossa maquina
+
+git fetch
+- atualiza o novo historico local de acordo com o historico salvo la no repositorio
+- sincronizacao do local com o remoto 
